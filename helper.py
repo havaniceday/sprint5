@@ -13,3 +13,7 @@ def generate_random_email():
 def generate_random_password(length: int):
     password = random.choices(string.ascii_letters + string.digits, k=length)
     return str.join('', password)
+
+
+def valid_user():
+    return ['test1@me.com', '123456']

@@ -50,6 +50,6 @@ test_exit_for_logged_in_user_is_successful
 Раздел «Конструктор» test_constructor_transitions.py
 
 Проверь, что работают переходы к разделам:
-«Булки», test_transitions_to_buns_success
-«Соусы», test_transitions_to_sauces_success
-«Начинки». test_transitions_to_fillings_success
+«Булки», test_transitions_from_buns_success
+«Соусы», test_transitions_from_fillings_and_sauces_success
+«Начинки». 

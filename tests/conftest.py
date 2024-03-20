@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium import webdriver
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
-
+from locators import TestLocators
 
 @pytest.fixture
 def driver():
@@ -16,6 +16,5 @@ def driver():
     driver.quit()
 
 
-@pytest.fixture
-def valid_user():
-    return ['test1@me.com', '123456']
+
+
